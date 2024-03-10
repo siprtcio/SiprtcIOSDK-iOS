@@ -1,0 +1,6 @@
+framework module SiprtcIOSDK {
+  umbrella header "SiprtcIOSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
