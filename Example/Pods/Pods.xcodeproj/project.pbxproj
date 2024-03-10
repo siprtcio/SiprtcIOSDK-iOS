@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		03AD2B6A2B9DD23500460583 /* CustomPJSUA2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03AD2B692B9DD23500460583 /* CustomPJSUA2.mm */; };
-		03AD2B6C2B9DD29500460583 /* CustomPJSUA2.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 03AD2B6B2B9DD29500460583 /* CustomPJSUA2.hpp */; };
 		03AD2B6E2B9DD2FA00460583 /* libPJSIP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AD2B6D2B9DD2FA00460583 /* libPJSIP.xcframework */; };
 		03AD2B6F2B9DD2FA00460583 /* libPJSIP.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03AD2B6D2B9DD2FA00460583 /* libPJSIP.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		03AD2B722B9DD4CA00460583 /* wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03AD2B712B9DD4CA00460583 /* wrapper.mm */; };
-		03AD2B742B9DD4FA00460583 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 03AD2B732B9DD4FA00460583 /* wrapper.h */; };
+		03AD2B762B9DDB8F00460583 /* CustomPJSUA2.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 03AD2B752B9DDB8F00460583 /* CustomPJSUA2.hpp */; };
+		03AD2B782B9DDBA400460583 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 03AD2B772B9DDBA400460583 /* wrapper.h */; };
 		16B179789D618C5C156EE2F3E12D4281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1A0D877352AD5F6F7BAFFE1DCD880A45 /* SiprtcIOSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC84D3D4B98D5D766A309F94BE03AFCC /* SiprtcIOSDK-dummy.m */; };
 		2C4011903D5E5CDF9AB7B306C6B8A2FD /* SiprtcIOSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAFC4B928F7EF65CB63129E5A64299A4 /* SiprtcIOSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,10 +58,10 @@
 
 /* Begin PBXFileReference section */
 		03AD2B692B9DD23500460583 /* CustomPJSUA2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CustomPJSUA2.mm; path = SiprtcIOSDK/Classes/CustomPJSUA2.mm; sourceTree = "<group>"; };
-		03AD2B6B2B9DD29500460583 /* CustomPJSUA2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CustomPJSUA2.hpp; sourceTree = "<group>"; };
 		03AD2B6D2B9DD2FA00460583 /* libPJSIP.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libPJSIP.xcframework; path = "../../../pjsip-ios-builder/libPJSIP.xcframework"; sourceTree = "<group>"; };
 		03AD2B712B9DD4CA00460583 /* wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = wrapper.mm; path = SiprtcIOSDK/Classes/wrapper.mm; sourceTree = "<group>"; };
-		03AD2B732B9DD4FA00460583 /* wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wrapper.h; sourceTree = "<group>"; };
+		03AD2B752B9DDB8F00460583 /* CustomPJSUA2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CustomPJSUA2.hpp; path = SiprtcIOSDK/Classes/CustomPJSUA2.hpp; sourceTree = "<group>"; };
+		03AD2B772B9DDBA400460583 /* wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wrapper.h; path = SiprtcIOSDK/Classes/wrapper.h; sourceTree = "<group>"; };
 		04AA01D66799B87CF5534DA5E72F1FD3 /* SiprtcIOSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SiprtcIOSDK.modulemap; sourceTree = "<group>"; };
 		1397D862C07863E300D64F9834CE71DF /* Pods-SiprtcIOSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SiprtcIOSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		1776A93E730F7222CBE4B6F7148570F2 /* Pods-SiprtcIOSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiprtcIOSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -242,10 +242,10 @@
 		EC8965451D32EC905560E531BB03C039 /* SiprtcIOSDK */ = {
 			isa = PBXGroup;
 			children = (
-				03AD2B732B9DD4FA00460583 /* wrapper.h */,
+				03AD2B772B9DDBA400460583 /* wrapper.h */,
+				03AD2B752B9DDB8F00460583 /* CustomPJSUA2.hpp */,
 				03AD2B712B9DD4CA00460583 /* wrapper.mm */,
 				03AD2B692B9DD23500460583 /* CustomPJSUA2.mm */,
-				03AD2B6B2B9DD29500460583 /* CustomPJSUA2.hpp */,
 				5BE6605923FE235BF93E838EB48498B0 /* ReplaceMe.m */,
 				807A96AFDB22F3176C92CD12FB12BE91 /* Pod */,
 				9FF9EA70A6903F8D5F198C8ED3812983 /* Support Files */,
@@ -261,8 +261,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03AD2B6C2B9DD29500460583 /* CustomPJSUA2.hpp in Headers */,
-				03AD2B742B9DD4FA00460583 /* wrapper.h in Headers */,
+				03AD2B762B9DDB8F00460583 /* CustomPJSUA2.hpp in Headers */,
+				03AD2B782B9DDBA400460583 /* wrapper.h in Headers */,
 				2C4011903D5E5CDF9AB7B306C6B8A2FD /* SiprtcIOSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

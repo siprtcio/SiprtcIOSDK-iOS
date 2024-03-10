@@ -25,7 +25,7 @@ TODO: SiprtcIO SDK is VOIP SDK For ios. It is used to create voip application in
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SP' => 'shailesh@siprtc.io' }
-  s.source           = { :git => 'https://github.com/siprtcio/SiprtcIOSDK-iOS', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/siprtcio/SiprtcIOSDK-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
